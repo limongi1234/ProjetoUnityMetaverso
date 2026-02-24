@@ -1,9 +1,6 @@
 # 🥽 VR Fisioterapia Pós-Operatória
 
 Projeto acadêmico de **Realidade Virtual utilizando Unity** para simulação de **fisioterapia pós-operatória**.
-
-👨‍💻 Autor: Renato Lemos Limongi de Aguiar Moraes
-
 ---
 
 # 📚 Sumário
@@ -406,14 +403,6 @@ OBS: Este relatório técnico foi desenvolvido como alternativa prática, pois a
 a execução adequada do projeto em Realidade Virtual.
 
 Apesar do Unity estar instalado, o programa não abre corretamente no equipamento.
-
-## Configuração do Notebook
-
-- Sistema Operacional: Windows 10
-- Memória RAM: 8 GB
-- Processador: Intel Celeron
-- Placa de vídeo: Integrada (sem placa dedicada)
-
 Devido às limitações de hardware, não foi possível desenvolver a aplicação prática, sendo elaborado este relatório técnico completo conforme solicitado.
 
 ---
