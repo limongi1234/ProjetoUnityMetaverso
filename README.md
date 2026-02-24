@@ -1,161 +1,272 @@
-🥽 VR Fisioterapia Pós-Operatória
+# 🥽 VR Fisioterapia Pós-Operatória
 
-Projeto acadêmico de Realidade Virtual utilizando Unity para simulação de fisioterapia pós-operatória.
+Projeto acadêmico de **Realidade Virtual utilizando Unity** para simulação de **fisioterapia pós-operatória**.
 
-Autor: Renato Lemos Limongi de Aguiar Moraes
+👨‍💻 Autor: Renato Lemos Limongi de Aguiar Moraes
 
-📚 Sumário
+---
 
-Introdução
+# 📚 Sumário
 
-Objetivos
+- Introdução
+- Objetivos
+- Problema
+- Solução
+- Plataforma de Desenvolvimento
+- Instalação Completa
+- Ambiente Virtual
+- Assets
+- Execução
+- Resultados
+- Conclusão
+- Observação Técnica
 
-Problema
+---
 
-Solução
+# 🏥 Introdução
 
-Plataforma
-
-Tecnologias
-
-Ambiente Virtual
-
-Assets
-
-Execução
-
-Resultados
-
-Conclusão
-
-Observação Técnica
-
-🏥 Introdução
-
-Este projeto apresenta o planejamento de um ambiente de Realidade Virtual voltado para fisioterapia pós-operatória.
+Este projeto apresenta o planejamento de um ambiente de **Realidade Virtual voltado para fisioterapia pós-operatória**.
 
 Pacientes em recuperação cirúrgica frequentemente precisam realizar exercícios repetitivos para recuperar movimentos.
 
 A Realidade Virtual permite a criação de ambientes imersivos que aumentam a motivação do paciente.
 
-🎯 Objetivos
-Objetivo Geral
+---
+
+# 🎯 Objetivos
+
+## Objetivo Geral
 
 Desenvolver um ambiente virtual para auxiliar na fisioterapia pós-operatória.
 
-Objetivos Específicos
+## Objetivos Específicos
 
-Criar ambiente virtual terapêutico
+- Criar ambiente virtual terapêutico
+- Simular exercícios
+- Melhorar motivação
+- Criar experiência imersiva
 
-Simular exercícios
+---
 
-Melhorar motivação
-
-Criar experiência imersiva
-
-⚠️ Problema
+# ⚠️ Problema
 
 Pacientes pós-operatórios possuem dificuldades em manter a regularidade dos exercícios.
 
-Principais problemas:
+## Principais Problemas
 
-Falta de motivação
+- Falta de motivação
+- Dificuldade de locomoção
+- Exercícios incorretos
 
-Dificuldade de locomoção
+---
 
-Exercícios incorretos
-
-💡 Solução
+# 💡 Solução
 
 A solução proposta consiste em um ambiente virtual de fisioterapia.
 
 O sistema permitirá:
 
-Visualização 3D
+- Visualização 3D
+- Exercícios guiados
+- Ambiente clínico virtual
 
-Exercícios guiados
+---
 
-Ambiente clínico virtual
+# 💻 Plataforma de Desenvolvimento
 
-💻 Plataforma de Desenvolvimento
-Engine
+## Engine
 
 Unity 6000.3.6f1
 
-Ferramentas
-
-Meta XR All-in-One SDK
-
-Plugin OpenXR 1.16.1
-
-Configuração Necessária
-
-Para executar o projeto em dispositivos de Realidade Virtual é necessário configurar o Unity com suporte a Android.
-
-Passos necessários:
-
-Instalar o módulo Android Build Support no Unity Hub
-
-Instalar Android SDK
-
-Instalar Android NDK
-
-Instalar OpenJDK
-
-Após a instalação:
-
-Abrir o Unity Hub
-
-Selecionar Installs
-
-Selecionar a versão do Unity
-
-Clicar em Add Modules
-
-Instalar:
-
-Android Build Support
-
-Android SDK & NDK Tools
-
-OpenJDK
-
-Esta configuração é necessária pois os dispositivos de Realidade Virtual utilizam sistema Android.
-
-Linguagem
+## Linguagem
 
 C#
 
-🌐 Ambiente Virtual
-Requisitos
+## Ferramentas
+
+- Meta XR All-in-One SDK
+- Plugin OpenXR 1.16.1
+
+---
+
+# ⚙️ Configuração Necessária
+
+Para executar aplicações de Realidade Virtual é necessário configurar o Unity com suporte Android.
+
+## Instalar módulos Android
+
+Instalar no Unity Hub:
+
+- Android Build Support
+- Android SDK
+- Android NDK
+- OpenJDK
+
+Esta configuração é necessária porque dispositivos VR utilizam sistema Android.
+
+---
+
+# ⚙️ Instalação Completa
+
+Esta seção descreve como instalar todas as ferramentas necessárias.
+
+---
+
+## 🧩 1 - Instalar Unity
+
+### Passo 1 – Baixar Unity Hub
+
+Download:
+
+https://unity.com/download
+
+Instalar o Unity Hub.
+
+---
+
+### Passo 2 – Instalar Unity 6000.3.6f1
+
+1 Abrir Unity Hub
+
+2 Ir em:
+
+Installs
+
+3 Clicar em:
+
+Install Editor
+
+4 Selecionar:
+
+Unity 6000.3.6f1
+
+5 Instalar
+
+---
+
+## 📱 2 - Instalar Suporte Android
+
+Necessário para dispositivos VR.
+
+### Passos
+
+1 Abrir Unity Hub
+
+2 Ir em:
+
+Installs
+
+3 Selecionar Unity 6000.3.6f1
+
+4 Clicar:
+
+Add Modules
+
+5 Instalar:
+
+- Android Build Support
+- Android SDK & NDK Tools
+- OpenJDK
+
+---
+
+## 🥽 3 - Instalar Plugin OpenXR
+
+### Passos
+
+1 Abrir projeto Unity
+
+2 Ir em:
+
+Window → Package Manager
+
+3 Selecionar:
+
+Unity Registry
+
+4 Procurar:
+
+OpenXR Plugin
+
+5 Instalar versão:
+
+1.16.1
+
+---
+
+## 🥽 4 - Instalar Meta XR All-in-One SDK
+
+### Download
+
+https://developer.oculus.com/downloads/package/meta-xr-all-in-one-sdk/
+
+---
+
+### Passos
+
+1 Baixar o SDK
+
+2 Extrair o arquivo ZIP
+
+3 Abrir projeto Unity
+
+4 Ir em:
+
+Assets → Import Package → Custom Package
+
+5 Selecionar:
+
+MetaXRSDK.unitypackage
+
+6 Clicar:
+
+Import
+
+---
+
+## ✅ 5 - Configuração Final
+
+Após instalar:
+
+- Unity
+- Android Support
+- OpenXR
+- Meta XR SDK
+
+O projeto estará pronto para desenvolvimento VR.
+
+---
+
+# 🌐 Ambiente Virtual
+
+## Requisitos
 
 O ambiente virtual deverá conter:
 
-Mínimo de 5 objetos 3D
+- Mínimo de 5 objetos 3D
+- Plano de chão
+- Skybox configurado
+- Objetos organizados de forma coerente
 
-Plano de chão
+---
 
-Skybox configurado
+## Objetos Planejados
 
-Objetos organizados de forma coerente
+- Maca
+- Bola terapêutica
+- Halteres
+- Cadeira
+- Mesa
 
-Objetos Planejados
+---
 
-Maca
+# 📦 Assets Recomendados
 
-Bola terapêutica
+Serão utilizados assets gratuitos compatíveis com Unity.
 
-Halteres
+---
 
-Cadeira
-
-Mesa
-
-📦 Assets Recomendados
-
-Para a construção do ambiente virtual serão utilizados assets gratuitos compatíveis com Unity.
-
-1 - Ambiente Médico
+## Ambiente Médico
 
 Medical Room Pack
 
@@ -163,13 +274,13 @@ https://assetstore.unity.com/packages/3d/environments/medical/medical-room-pack-
 
 Contém:
 
-Macas
+- Macas
+- Móveis médicos
+- Equipamentos clínicos
 
-Móveis médicos
+---
 
-Equipamentos clínicos
-
-2 - Personagem 3D
+## Personagem 3D
 
 Simple People Characters
 
@@ -177,11 +288,12 @@ https://assetstore.unity.com/packages/3d/characters/humanoids/simple-people-char
 
 Permite:
 
-Simulação de paciente
+- Simulação de paciente
+- Demonstração de exercícios
 
-Demonstração de exercícios
+---
 
-3 - Equipamentos de Exercício
+## Equipamentos
 
 Gym Equipment Pack
 
@@ -189,11 +301,12 @@ https://assetstore.unity.com/packages/3d/props/gym/gym-equipment-pack-160807
 
 Contém:
 
-Pesos
+- Pesos
+- Equipamentos de exercício
 
-Equipamentos de exercício
+---
 
-4 - Skybox
+## Skybox
 
 Skybox Series Free
 
@@ -201,11 +314,12 @@ https://assetstore.unity.com/packages/2d/textures-materials/sky/skybox-series-fr
 
 Permite:
 
-Céu realista
+- Céu realista
+- Ambiente imersivo
 
-Ambiente imersivo
+---
 
-5 - Texturas de Piso
+## Piso
 
 Floor Materials Pack
 
@@ -213,80 +327,97 @@ https://assetstore.unity.com/packages/2d/textures-materials/floors/floor-materia
 
 Permite:
 
-Piso hospitalar
+- Piso hospitalar
+- Ambiente realista
 
-Ambiente realista
+---
 
-⚙️ Roteiro de Execução
-Passo 1
+# ⚙️ Roteiro de Execução
 
-Instalar Unity Hub
+## Passo 1
 
-Instalar Unity 6000.3.6f1
+Instalar:
 
-Passo 2
+- Unity Hub
+- Unity 6000.3.6f1
 
-Criar projeto 3D
+---
+
+## Passo 2
+
+Criar projeto:
 
 Nome:
 
 FisioterapiaVR
 
-Passo 3
+Tipo:
+
+3D Project
+
+---
+
+## Passo 3
 
 Instalar ferramentas VR
 
-OpenXR Plugin
+- OpenXR Plugin
+- Meta XR SDK
 
-Meta XR SDK
+---
 
-Passo 4
+## Passo 4
 
 Criar ambiente
 
-Criar Plane
+- Criar Plane
+- Adicionar objetos
+- Adicionar Skybox
 
-Adicionar objetos
+---
 
-Adicionar Skybox
-
-Passo 5
+## Passo 5
 
 Executar
 
 Pressionar Play
 
-📊 Resultados Esperados
+---
 
-Ambiente virtual funcional
+# 📊 Resultados Esperados
 
-Exercícios simulados
+- Ambiente virtual funcional
+- Exercícios simulados
+- Experiência imersiva
 
-Experiência imersiva
+---
 
-✅ Conclusão
+# ✅ Conclusão
 
 O projeto demonstra o uso da Realidade Virtual na fisioterapia pós-operatória.
 
 A tecnologia pode melhorar a recuperação dos pacientes.
 
-⚠️ Observação Técnica
+---
 
-OBS: Este relatório técnico foi desenvolvido como alternativa prática, pois a configuração do notebook utilizado não permite a execução adequada do projeto em Realidade Virtual.
+# ⚠️ Observação Técnica
+
+OBS: Este relatório técnico foi desenvolvido como alternativa prática, pois a configuração do notebook utilizado não permite
+a execução adequada do projeto em Realidade Virtual.
 
 Apesar do Unity estar instalado, o programa não abre corretamente no equipamento.
 
-Configuração do notebook:
+## Configuração do Notebook
 
-Sistema Operacional: Windows 10
-
-Memória RAM: 8 GB
-
-Processador: Intel Celeron
-
-Placa de vídeo: Integrada (sem placa dedicada)
+- Sistema Operacional: Windows 10
+- Memória RAM: 8 GB
+- Processador: Intel Celeron
+- Placa de vídeo: Integrada (sem placa dedicada)
 
 Devido às limitações de hardware, não foi possível desenvolver a aplicação prática, sendo elaborado este relatório técnico completo conforme solicitado.
 
-Se quiser, posso montar a versão final em PDF ou pronta para GitHub (bem formatada) 📘✨
-Isso costuma deixar o projeto com aparência mais profissional.
+---
+
+# 📌 Observação
+
+Este README foi estruturado como relatório técnico acadêmico.
