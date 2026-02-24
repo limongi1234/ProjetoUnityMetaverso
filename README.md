@@ -2,6 +2,8 @@
 
 Projeto acadêmico de Realidade Virtual utilizando Unity para simulação de fisioterapia pós-operatória.
 
+Autor: Renato Lemos Limongi de Aguiar Moraes
+
 ---
 
 # 📚 Sumário
@@ -10,22 +12,24 @@ Projeto acadêmico de Realidade Virtual utilizando Unity para simulação de fis
 * Objetivos
 * Problema
 * Solução
+* Plataforma
 * Tecnologias
 * Ambiente Virtual
 * Assets
 * Execução
-* Estrutura
 * Resultados
+* Conclusão
+* Observação Técnica
 
 ---
 
 # 🏥 Introdução
 
-Este projeto apresenta um ambiente de Realidade Virtual voltado para fisioterapia pós-operatória.
+Este projeto apresenta o planejamento de um ambiente de Realidade Virtual voltado para fisioterapia pós-operatória.
 
-O sistema simula uma clínica de fisioterapia permitindo exercícios guiados em ambiente virtual.
+Pacientes em recuperação cirúrgica frequentemente precisam realizar exercícios repetitivos para recuperar movimentos.
 
-A Realidade Virtual aumenta a motivação e melhora a execução dos exercícios.
+A Realidade Virtual permite a criação de ambientes imersivos que aumentam a motivação do paciente.
 
 ---
 
@@ -33,19 +37,22 @@ A Realidade Virtual aumenta a motivação e melhora a execução dos exercícios
 
 ## Objetivo Geral
 
-Criar ambiente VR terapêutico.
+Desenvolver um ambiente virtual para auxiliar na fisioterapia pós-operatória.
 
 ## Objetivos Específicos
 
+* Criar ambiente virtual terapêutico
 * Simular exercícios
-* Criar ambiente clínico
-* Experiência imersiva
+* Melhorar motivação
+* Criar experiência imersiva
 
 ---
 
 # ⚠️ Problema
 
-Pacientes pós-operatórios possuem dificuldades:
+Pacientes pós-operatórios possuem dificuldades em manter a regularidade dos exercícios.
+
+Principais problemas:
 
 * Falta de motivação
 * Dificuldade de locomoção
@@ -55,26 +62,27 @@ Pacientes pós-operatórios possuem dificuldades:
 
 # 💡 Solução
 
-Ambiente VR de fisioterapia.
+A solução proposta consiste em um ambiente virtual de fisioterapia.
 
-Permite:
+O sistema permitirá:
 
-* Exercícios guiados
 * Visualização 3D
+* Exercícios guiados
+* Ambiente clínico virtual
 
 ---
 
-# 🧰 Tecnologias
+# 💻 Plataforma de Desenvolvimento
 
 ## Engine
 
 Unity 6000.3.6f1
 
-## SDKs
+## Ferramentas
 
 Meta XR All-in-One SDK
 
-OpenXR Plugin 1.16.1
+Plugin OpenXR 1.16.1
 
 ## Linguagem
 
@@ -86,106 +94,162 @@ C#
 
 ## Requisitos
 
-* 5 objetos 3D
-* Plano de chão
-* Skybox
+O ambiente virtual deverá conter:
 
-## Objetos
+* Mínimo de 5 objetos 3D
+* Plano de chão
+* Skybox configurado
+* Objetos organizados de forma coerente
+
+## Objetos Planejados
 
 * Maca
-* Bola
+* Bola terapêutica
 * Halteres
-* Mesa
 * Cadeira
+* Mesa
 
 ---
 
-# 📦 Assets
+# 📦 Assets Recomendados
 
-## Medical Room
+Para a construção do ambiente virtual serão utilizados assets gratuitos compatíveis com Unity.
+
+## 1 - Ambiente Médico
+
+Medical Room Pack
 
 [https://assetstore.unity.com/packages/3d/environments/medical/medical-room-pack-102977](https://assetstore.unity.com/packages/3d/environments/medical/medical-room-pack-102977)
 
-## Skybox
+Contém:
 
-[https://assetstore.unity.com/packages/2d/textures-materials/sky/skybox-series-free-103633](https://assetstore.unity.com/packages/2d/textures-materials/sky/skybox-series-free-103633)
-
-## Gym
-
-[https://assetstore.unity.com/packages/3d/props/gym/gym-equipment-pack-160807](https://assetstore.unity.com/packages/3d/props/gym/gym-equipment-pack-160807)
+* Macas
+* Móveis médicos
+* Equipamentos clínicos
 
 ---
 
-# ⚙️ Execução
+## 2 - Personagem 3D
 
-## Instalar
+Simple People Characters
 
-1 Instalar Unity Hub
+[https://assetstore.unity.com/packages/3d/characters/humanoids/simple-people-characters-80113](https://assetstore.unity.com/packages/3d/characters/humanoids/simple-people-characters-80113)
 
-2 Instalar Unity 6000.3.6f1
+Permite:
 
-## Criar Projeto
+* Simulação de paciente
+* Demonstração de exercícios
 
-Template 3D
+---
+
+## 3 - Equipamentos de Exercício
+
+Gym Equipment Pack
+
+[https://assetstore.unity.com/packages/3d/props/gym/gym-equipment-pack-160807](https://assetstore.unity.com/packages/3d/props/gym/gym-equipment-pack-160807)
+
+Contém:
+
+* Pesos
+* Equipamentos de exercício
+
+---
+
+## 4 - Skybox
+
+Skybox Series Free
+
+[https://assetstore.unity.com/packages/2d/textures-materials/sky/skybox-series-free-103633](https://assetstore.unity.com/packages/2d/textures-materials/sky/skybox-series-free-103633)
+
+Permite:
+
+* Céu realista
+* Ambiente imersivo
+
+---
+
+## 5 - Texturas de Piso
+
+Floor Materials Pack
+
+[https://assetstore.unity.com/packages/2d/textures-materials/floors/floor-materials-4k-179743](https://assetstore.unity.com/packages/2d/textures-materials/floors/floor-materials-4k-179743)
+
+Permite:
+
+* Piso hospitalar
+* Ambiente realista
+
+---
+
+# ⚙️ Roteiro de Execução
+
+## Passo 1
+
+Instalar Unity Hub
+
+Instalar Unity 6000.3.6f1
+
+## Passo 2
+
+Criar projeto 3D
 
 Nome:
 
 FisioterapiaVR
 
-## Instalar VR
+## Passo 3
 
-OpenXR
+Instalar ferramentas VR
 
-Meta XR
+* OpenXR Plugin
+* Meta XR SDK
 
-## Criar Cena
+## Passo 4
 
-Plane
+Criar ambiente
 
-Objetos
+Criar Plane
 
-Skybox
+Adicionar objetos
 
-## Executar
+Adicionar Skybox
 
-Play
+## Passo 5
 
----
+Executar
 
-# 📂 Estrutura
-
-Projeto/
-
-Assets/
-
-Scenes/
-
-Scripts/
-
-Prefabs/
+Pressionar Play
 
 ---
 
 # 📊 Resultados Esperados
 
-* Ambiente funcional
-
+* Ambiente virtual funcional
 * Exercícios simulados
-
-* Experiência VR
+* Experiência imersiva
 
 ---
 
 # ✅ Conclusão
 
-Projeto demonstra VR na fisioterapia.
+O projeto demonstra o uso da Realidade Virtual na fisioterapia pós-operatória.
 
-Pode melhorar recuperação.
+A tecnologia pode melhorar a recuperação dos pacientes.
 
 ---
 
-# 👨‍💻 Autor
+# ⚠️ Observação Técnica
 
-Renato Lemos Limongi de Aguiar Moraes
+OBS: Este relatório técnico foi desenvolvido como alternativa prática, pois a configuração do notebook
+utilizado não permite a execução adequada do projeto em Realidade Virtual.
 
-OBS: Fiz este relatório técnico, pois configuração do meu notebook não permite o desenvolvimento do projeto mesmo, o Unity está instalado mas não abre, a configuração do meu notebook é composta por: windows 10, 8 gigas, sem placa de víseo e processador celeron
+Apesar do Unity estar instalado, o programa não abre corretamente no equipamento.
+
+Configuração do notebook:
+
+* Sistema Operacional: Windows 10
+* Memória RAM: 8 GB
+* Processador: Intel Celeron
+* Placa de vídeo: Integrada (sem placa dedicada)
+
+Devido às limitações de hardware, não foi possível desenvolver a aplicação prática, sendo elaborado este relatório técnico completo conforme solicitado.
